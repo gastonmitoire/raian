@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo global del scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Estilo del thumb del scrollbar */
+::-webkit-scrollbar-thumb {
+  background-color: #404040;
+}
+
+/* Estilo del track del scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #171717;
+}
+
+/* Estilo de la esquina del scrollbar */
+::-webkit-scrollbar-corner {
+  background-color: #404040;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #404040;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #171717;
+}
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background-color: #404040;
+}
